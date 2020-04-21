@@ -25,7 +25,7 @@ namespace SchedulingPractice.PubWorker
             DateTime since = DateTime.Now.AddSeconds(since_sec);
 
             // 設定: 預定測試持續時間
-            TimeSpan duration = TimeSpan.FromMinutes(1);
+            TimeSpan duration = TimeSpan.FromMinutes(10);
 
 
 
